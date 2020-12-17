@@ -1,39 +1,291 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>    
-    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />           
-    <script type='text/javascript' src='unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
-    <script type="text/javascript">
-      jQuery(document).ready(function($) {
-        jQuery("#gallery").unitegallery({
-          tile_show_link_icon:true,
-        });
-      });
-    </script>
- 
-    <title>gallery</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>依戀居家商品型錄</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery-migrate-3.0.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
   </head>
+
   <body>
-    <div id="gallery" style="margin:0px auto;display:none;">
-     <a href="http://unitegallery.net">
-      <img alt="Lemon Slice"
-       src="img/card/card01.jpg"
-       data-image="img/card/card01.jpg"
-       data-description="This is a Lemon Slice"
-       style="display:none">
-      </a>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">依戀居家商品型錄</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/60c.html">60純棉</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/40c.html">40純棉</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/tenchemp.html">天絲麻</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/tencel.html">天絲</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/1080.html">素色拼接</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://elainehouse.github.io/elainehouse/gallery.html">所有商品</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <h1 class="my-4 text-center text-lg-left">依戀居家商品型錄</h1>      
+
+      <!-- help -->
+
+      <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+
+      <div class="row text-center text-lg-left " id="lightgallery">
+        
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1071003.jpg" data-sub-html="<h4>依戀情人</h4><p>60支純棉，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1071003.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1071011.jpg" data-sub-html="<h4>依戀情人</h4><p>60支純棉，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1071011.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1072005.jpg" data-sub-html="<h4>絮語</h4><p>60支純棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1072005.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1073003.jpg" data-sub-html="<h4>雅逸</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1073003.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1074004.jpg" data-sub-html="<h4>秋之饗宴</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1074004.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1075003.jpg" data-sub-html="<h4>紫韻</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1075003.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1080002.jpg" data-sub-html="<h4>風尚 湛藍</h4><p>60支純棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1080002.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1080016.jpg" data-sub-html="<h4>風尚 水藍</h4><p>60支純棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1080016.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1080023.jpg" data-sub-html="<h4>風尚 炭灰</h4><p>60支純棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1080023.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/180101.jpg" data-sub-html="<h4>午後時光</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/180101.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/180201.jpg" data-sub-html="<h4>花語</h4><p>60支天絲</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/180201.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/180301.jpg" data-sub-html="<h4>動物星球</h4><p>40支純棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/180301.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1941001.JPG" data-sub-html="<h4>繡線款 藍</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1941001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1942002.JPG" data-sub-html="<h4>繡線款 深灰</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1942002.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1943002.JPG" data-sub-html="<h4>繡線款 粉</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1943002.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1944002.JPG" data-sub-html="<h4>木扣款 抹茶綠</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1944002.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/1945001.JPG" data-sub-html="<h4>木扣款 灰藍</h4><p>天絲麻</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/1945001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8011001.jpg" data-sub-html="<h4>英倫情人 藍</h4><p>60支天絲，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8011001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8011002.jpg" data-sub-html="<h4>英倫情人 粉</h4><p>60支天絲，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8011002.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8035001.jpg" data-sub-html="<h4>和風花語</h4><p>60支天絲棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8035001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8042001.jpg" data-sub-html="<h4>樹詩</h4><p>60支天絲棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8042001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8042002.jpg" data-sub-html="<h4>樹詩</h4><p>60支天絲棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8042001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8045001.jpg" data-sub-html="<h4>幽香</h4><p>60支天絲棉</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8045001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8045002.jpg" data-sub-html="<h4>幽香</h4><p>60支天絲</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8045001.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8501001.png" data-sub-html="<h4>白熊</h4><p>40支天絲</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8501001.png" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8508001.png" data-sub-html="<h4>黑熊</h4><p>40支天絲</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8508001.png" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/8511001.png" data-sub-html="<h4>花魅</h4><p>40支天絲，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/8511001.png" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/img02.jpg" data-sub-html="<h4>奇幻煙火</h4><p>40支純棉，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/img02.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/img06.jpg" data-sub-html="<h4>都會風情</h4><p>40支純棉，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/img06.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/img10.jpg" data-sub-html="<h4>海洋訊息</h4><p>40支純棉，A+B版，共兩色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/img10.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/gal/img14.jpg" data-sub-html="<h4>夢幻森林</h4><p>40支純棉，共四色</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/gal/img14.jpg" alt="bee-bakery.com">
+          </a>
+        </div>
+
+
+
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+      <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+      <script>
+          lightGallery(document.getElementById('lightgallery'));
+      </script>
+
     </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+
   </body>
+
 </html>
